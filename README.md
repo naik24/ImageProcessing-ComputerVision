@@ -69,4 +69,5 @@ One of the simplest ways to develop a basic understanding of the extent of image
 - Compression deals with techniques for reducing the storage required to save an image, or the bandwidth required to transmit it. Although storage technology has improved significantly over the past decade, the same cannot be said for transmission capacity. 
 - Morphological processing deals with tools for extracting image components that are useful in the representation and description of shape.
 - Segmentation partitions an image into its constituent parts or objects. 
-- 
+- Feature extraction almost always follows the output of a segmentation stage, which usually is a raw pixel data, constituting either the boundary of a region or all the points in the region itself. Feature extraction consists of feature detection and feature description. Feature detection refers to finding the features in an image, region or boundary. Feature description assigns quantitative attributes to the detected features. 
+- Image pattern classification is the process that assigns a label to an object based on its feature descriptors.
