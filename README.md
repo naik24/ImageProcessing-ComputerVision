@@ -71,3 +71,30 @@ One of the simplest ways to develop a basic understanding of the extent of image
 - Segmentation partitions an image into its constituent parts or objects. 
 - Feature extraction almost always follows the output of a segmentation stage, which usually is a raw pixel data, constituting either the boundary of a region or all the points in the region itself. Feature extraction consists of feature detection and feature description. Feature detection refers to finding the features in an image, region or boundary. Feature description assigns quantitative attributes to the detected features. 
 - Image pattern classification is the process that assigns a label to an object based on its feature descriptors.
+
+## 2. Digital Image Fundamentals
+
+#### 2.1 Objectives
+- Have an understanding of basic geometric relationships between image pixels
+- Be familiar with the principal mathematical tools used in digital image processing
+- Be able to apply a variety of basic image processing techniques
+
+#### 2.2 Representing Digital Images
+
+A digital image ***f(x, y)*** is represented by an ***M*** x ***N*** matrix where ***x*** = 0, 1, 2,..., ***M***-1 and ***y*** = 0, 1, 2,..., ***N-1***. 
+
+Image digitization requires that decisions be made regarding the values for ***M***, ***N***, and for the number of discrete intensity levels ***L***. There are no restrictions placed on ***M*** and ***N***, other than they have to be positive integers. However, digital storage and quantizing hardware considerations usually lead to the number of intensity levels ***L***, being and integer power of two i.e. 2<sup>***k***</sup>, where ***k*** is an integer. 
+
+Sometimes, the range of values spanned by the gray scale is referred to as the ***dynamic range***. The dynamic range of an imaging system is the ratio of the maximum measurable intensity to the minimum detectable intensity level in the system. As a rule, the upper limit is determined by the ***saturation*** and the lower limit by ***noise***, although noise can also be present in lighter intensities. Closely associated with this concept is ***image contrast***, which we define as the difference in intensity between the highest and lowest intensity levels in an image. 
+
+#### 2.3 Spatial and Intensity Resolution
+
+Spatial resolution is a measure of the smallest discernible detail in an image. Dots per unit distance is a measure of image resolution used in the printing and publishind industry. Other commonly used measure is dots ber inch (dpi)
+
+Intensity Resolution simply refers to smallest discernible change in intensity level.
+
+#### 2.4 Image Interpolation
+
+Interpolation is used in tasks such as zooming, shrinking, rotating, and geometrically correcting digital images.
+
+Interpolation is the process of using known data to estimate values at unknown locations. Suppose that an image of size 500 x 500 pixels has to be enlarged 1.5 times to 750 x 750 pixels. A simple way to visualize zooming is to create an imaginary 750 x 750 grid with the same pixel spacing as the original image, then shrink it so that it exactly overlays the original image. Obviously, the pixel spacing in the shrunken 750 x 750 grid will be less than the pixel spacing in the original image. To assign an intensity value to any point in the overlay, we look for its closest pixel in the underlying original image 
