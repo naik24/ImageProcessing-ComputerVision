@@ -105,6 +105,8 @@ The next level of complexity is bicubic interpolation, which involces sixteen ne
 
 Generally, bicubic interpolation does a better job of preserving fine detail that its bilinear counterpart. Bicubic interpolation is the standard used in commercial image editing applications, such as Adobe Photoshop and Corel Photopaint.
 
+Implementation of Image Interpolation in Python can be found <a href = "https://github.com/naik24/ImageProcessing/blob/master/Image%20Interpolation/Image_Interpolation.ipynb">here</a>
+
 #### 2.5 Relationships between pixels
 
 **2.5.1 Neighbors of a Pixel**
