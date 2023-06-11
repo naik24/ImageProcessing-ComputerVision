@@ -99,4 +99,18 @@ Interpolation is used in tasks such as zooming, shrinking, rotating, and geometr
 
 Interpolation is the process of using known data to estimate values at unknown locations. Suppose that an image of size 500 x 500 pixels has to be enlarged 1.5 times to 750 x 750 pixels. A simple way to visualize zooming is to create an imaginary 750 x 750 grid with the same pixel spacing as the original image, then shrink it so that it exactly overlays the original image. Obviously, the pixel spacing in the shrunken 750 x 750 grid will be less than the pixel spacing in the original image. To assign an intensity value to any point in the overlay, we look for its closest pixel in the underlying original image and assign the intensity of that pixel to the new pixel in the 750 x 750 grid. When intensities have been assigned to all the points in the overlay grid, we expand it back to the specified size to obtain the resized image. This method is called nearest neighbor interpolation. This approach is simple but, it has the tendence to produce undesirable artifacts, such as sever distortion or straight edged.
 
-A more suitable approac is bilinear interpolation, in which we use the four nearest neighbors to estimate the intensity at a given location. 
+A more suitable approach is bilinear interpolation, in which we use the four nearest neighbors to estimate the intensity at a given location. 
+
+The next level of complexity is bicubic interpolation, which involces sixteen nearest neighbors of a point. 
+
+Generally, bicubic interpolation does a better job of preserving fine detail that its bilinear counterpart. Bicubic interpolation is the standard used in commercial image editing applications, such as Adobe Photoshop and Corel Photopaint.
+
+#### 2.5 Relationships between pixels
+
+**2.5.1 Neighbors of a Pixel**
+
+A pixel ***p*** at coordinates (***x, y***) has two horizontal and two vertical neighbors with coordinates (***x + 1, y***), (***x - 1, y***), (***x, y + 1***), (***x, y - 1***). This set of pixels is called the 4-neighbors of ***p*** and is denoted as N<sub>4</sub>(***p***).
+
+The four diagonal neighbors of ***p*** have coordinates (***x + 1, y + 1***), (***x + 1, y - 1***), (***x - 1, y + 1***), (***x - 1, y - 1***). This set of pixels are denoted as N<sub>D</sub>(***p***). The 4-neighbors and diagonal neighbors together are call 8-neighbors of ***p***, denoted by N<sub>8</sub>(***p***).
+
+The set of image locations of the neighbors of a point ***p*** is called the neighborhood of ***p***. The neighborhood is said to be closed if it contains ***p***. Otherwise, it is said to be open.
