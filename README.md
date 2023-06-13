@@ -116,3 +116,33 @@ A pixel ***p*** at coordinates (***x, y***) has two horizontal and two vertical 
 The four diagonal neighbors of ***p*** have coordinates (***x + 1, y + 1***), (***x + 1, y - 1***), (***x - 1, y + 1***), (***x - 1, y - 1***). This set of pixels are denoted as N<sub>D</sub>(***p***). The 4-neighbors and diagonal neighbors together are call 8-neighbors of ***p***, denoted by N<sub>8</sub>(***p***).
 
 The set of image locations of the neighbors of a point ***p*** is called the neighborhood of ***p***. The neighborhood is said to be closed if it contains ***p***. Otherwise, it is said to be open.
+
+#### 2.6 Mathematical Tools in Digital Image Processing
+
+**2.6.1 Arithmetic Operations**
+
+Arithmetic operations involve addition, subtraction, multiplication and division. These operations are elementwise operations. 
+
+**2.6.2 Set Operations**
+
+When applying set concepts to image processing, we let sets represent objects (regions) in a binary image, and the elements of the sets are the (***x, y***) coordinates of those objects. For example, if we want to know whether two objects, A and B, of a binary image overlap, all we have to do is compute the intersection between A and B. If the result is not an empty set, we know that some of the elements of the two objects overlap.
+
+**2.6.3 Logical Operations**
+
+Logical operations deal with TRUE and FALSE variables and expressions. For our purposes, this means binary images composed of foreground pixels, and a background composed of 0-valued pixels. Set and logical operators on binary images can be used for two basic approaches: (1) we can use the coordinates of individual regions of foreground pixels in a single image as sets, or (2) we can work with one or more images of the same size and perform logical operations between corresponding pixels in those arrays.
+
+**2.6.4 Spatial Operations**
+
+Spatial operations are performed directly on the pixels of an image. Spatial operations are classified into three broad categories: (1) single-pixel operations, (2) neighborhood operations, and (3) geometric spatial transformations.
+
+Single-pixel operations are the simplest operations where the intensity of individual pixels is altered.
+
+Neighborhood processing generates a corresponding pixel at the same coordinates in an output image, such that the value of that pixel is determined by a specified operation on the neighborhood of pixels in the input image. 
+
+Geometric operations modify the spatial arrangement of pixels in an image. These transformations are called ***rubber-sheet transformations*** because they may be viewed as analogous to "printing" an image on a rubber sheet, then stretching or shrinking the sheet according to predefined set of rules. Geometric transformations of digital images consist of two basic operations: (1)Spatial Transformation of coordinates (2) Intensity interpolation that assigns intensity values to the spatially transformed pixels. Our interest is in so-called ***affine transformations***, which include scaling, translation, rotating, and shearing. It is possible to use homogeneous coordinates to express all four affine transformations using a single 3 x 3 matrix in the following general form: 
+
+<p align = "center"><img src="https://github.com/naik24/ImageProcessing/assets/69704762/7cc33a7f-efb2-48ef-875f-f15f5eee3c39"></p>
+
+This transformation can scale, rotate, translate, or sheer an image, depending on the values chosen for the elements of matrix A. A significant advantage  of being able to perform all the transformations using the unified representation in the above equation is that it provides the framework for concatenating a sequence of operations For example if we want to resize an image, rotate it, and move the result to some location, we simply form a 3 x 3 matrix equal to the product of scaling, rotation, and translation matrices.
+
+We use the above equation in two basic ways. The first, is a forward mapping, which consists of scanning the pixels of the input image and, at each location (***x, y***), computing the spatial location (***x', y'***) of the corresponding pixel in the output image. A problem with forward mapping is that two or more pixels in the input image can be transformed to the same location in the output imgae, raising the question of how to combine multiple output values into a single output pixel. In addition, it is possible that some output locations may not be assigned a pixel at all. The second approach is called inverse mapping, scans the output pixel locations and at each location (***x', y'***), computes the corresponding location in the input image using (***x, y***) = A<sup>-1</sup>(***x', y'***). It then interpolates among the nearest input pixels to determine the intensity of the output pixel value. 
