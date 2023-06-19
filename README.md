@@ -146,3 +146,25 @@ Geometric operations modify the spatial arrangement of pixels in an image. These
 This transformation can scale, rotate, translate, or sheer an image, depending on the values chosen for the elements of matrix A. A significant advantage  of being able to perform all the transformations using the unified representation in the above equation is that it provides the framework for concatenating a sequence of operations For example if we want to resize an image, rotate it, and move the result to some location, we simply form a 3 x 3 matrix equal to the product of scaling, rotation, and translation matrices.
 
 We use the above equation in two basic ways. The first, is a forward mapping, which consists of scanning the pixels of the input image and, at each location (***x, y***), computing the spatial location (***x', y'***) of the corresponding pixel in the output image. A problem with forward mapping is that two or more pixels in the input image can be transformed to the same location in the output imgae, raising the question of how to combine multiple output values into a single output pixel. In addition, it is possible that some output locations may not be assigned a pixel at all. The second approach is called inverse mapping, scans the output pixel locations and at each location (***x', y'***), computes the corresponding location in the input image using (***x, y***) = A<sup>-1</sup>(***x', y'***). It then interpolates among the nearest input pixels to determine the intensity of the output pixel value. 
+
+#### 2.7 Image Registration
+
+Image registration is an important application of digital image processing used to align two or more images of the same scene. In image registration, we have available an input image and a reference image. The objective is to transform the input image geometrically to produce an output image that is aligned with the reference image. The geometric transformation needed to produce the output, registered image is generally not known, and must be estimated.
+
+One of the principal approaches used in image registration is to use tie points (also called control points). These are corresponding points whose locations are known precisely in the input and reference images. 
+
+#### 2.8 Image Transforms
+
+In some cases, image processing tasks are best formulated by transforming the input images, carrying the specific task in a transform domain, and applying the inverse transform to return to the spatial domain. 
+
+A particularly important class of 2-D linear transforms can be expressed in the general form:
+
+<p align = "center"><img src="https://github.com/naik24/ImageProcessing/assets/69704762/cccb9436-0fc1-4f9c-aa41-907eb4826ac7"></p>
+
+where ***r(x, y, u, v)*** is called a forward transformation kernel. Given the above equation we can go back to spatial domain using the inverse transform:
+
+<p align = "center"><img alt="image" src="https://github.com/naik24/ImageProcessing/assets/69704762/ef3a72c4-4da2-4004-a9aa-1fdbeb6c1516"></p>
+
+where ***s(x, y, u, v)***  is called the inverse transformation kernel.
+
+The nature of the transform is determined by its kernel. One such kernel of particular importance in digital image processing is Fourier Transform. It can be shown that the Fourier kernels are separable and symmetric and that separable and symmetric kernels allow 2-D transforms to be computed using 1-D transforms.
