@@ -194,3 +194,16 @@ Some of the basic intensity transformation functions are listed below:
 #### 3.3 Piecewise Linear Transformation Functions
 
 Advantage of Piecewise Linear Transformation functions over those discussed above is that the form of piecewise functions can be arbitrarily complex. Some piecewise operations are discussed below:
+
+- Contrast Stretching: Contrast stretching expands the range of intensity levels in an image so that it spans the ideal full intensity range of the recording medium.
+- Intensity Level Slicing: There are applications in which it is of interest to highlight a specific range of intensities in an image. The method, called intensity-level slicing, can be implemented in several ways, but most are variations of two basic themes. One approach is to display in one value all the values in the range of interest and in another all other intensities. The second approach, brightens the desired range of intensities, but leaves all other intensities unchanged.
+
+#### 3.4 Histogram Processing
+
+Let *r<sub>k</sub>*, for *k* = 0, 1, 2, ..., L - 1 denote the intensities of an L-level digital image, *f(x, y)*. The normalized histogram of *f* is defined as *p(r<sub>k</sub>) = n<sub>k</sub>/MN where n<sub>k</sub> is the number of pixels in *f* with intensity *r<sub>k</sub>*
+
+Histograms are simple to compute and are also suitable for fast hardware implementations, thus making histogram-based techniques a popular tool for real-time image processing.
+
+**Histogram Equalization**: Method of generating output image with a uniform histogram
+
+**Histogram Matching**: Method used to generate images that have a specified historgram.
