@@ -168,3 +168,29 @@ where ***r(x, y, u, v)*** is called a forward transformation kernel. Given the a
 where ***s(x, y, u, v)***  is called the inverse transformation kernel.
 
 The nature of the transform is determined by its kernel. One such kernel of particular importance in digital image processing is Fourier Transform. It can be shown that the Fourier kernels are separable and symmetric and that separable and symmetric kernels allow 2-D transforms to be computed using 1-D transforms.
+
+## 3. Intensity Transformations and Spatial Filtering
+
+**3.1 Objectives**
+
+- Understand spatial domain processing
+- Understand Principal techniques used for intensity transformations
+- Understand physical meaning of image historgrams
+- Understand mechanics of spatial filtering
+- Understand principles of spatial convolution and correlation
+- Be familiar with the principal types of spatial filters, and how they are applied
+- Understand how to use combinations of enhancement methods
+
+#### 3.2 Basics of Intensity Transformations and Spatial Filtering
+
+The spatial domain processes are based on the expression *g(x, y) = T[f(x, y)]* where *T* is an operator on the image defined over a neighborhood. 
+
+Some of the basic intensity transformation functions are listed below:
+
+- Image Negatives: The transformation function is *s = L - 1 -r* where s is the pixel intensity of the resulting image and r is the pixel intensity of the original image. Reversing the intensity levels of a digital image in this manner produces the equivalent of a photographic negative.
+- Log Transformations: *s = clog(1 + r)* where c is a constant. This transformation maps a narrow range of low intensity values in the input to a wider range of output levels. Conversely, higher values of input levels are mapped to a narrower range in the output. This type of transformation is used to expand the values of datk pixels in an image, while compressing the higher-level values. The opposite is true of the inverse log(exponential) transformation.
+- Power Law (Gamma) Transformation: *s = cr<sup>(gamma)</sup> where c and gamma are positive constants.
+
+#### 3.3 Piecewise Linear Transformation Functions
+
+Advantage of Piecewise Linear Transformation functions over those discussed above is that the form of piecewise functions can be arbitrarily complex. Some piecewise operations are discussed below:
