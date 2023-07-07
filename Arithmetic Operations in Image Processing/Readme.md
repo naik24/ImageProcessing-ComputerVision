@@ -1,4 +1,4 @@
-# Arithmetic Operations In Image Processing
+# Arithmetic Operations In Image Processing [Code <a href = "https://github.com/naik24/ImageProcessing/blob/master/Arithmetic%20Operations%20in%20Image%20Processing/Arithmetic%20Operations%20in%20Image%20Processing.ipynb">💻</a>]
 
 Arithmetic operations between two images are denoted as:
 <p align = "center"><img width="176" alt="image" src="https://github.com/naik24/ImageProcessing/assets/69704762/f77e069f-b7a3-4cfe-8300-469fb843a690">
