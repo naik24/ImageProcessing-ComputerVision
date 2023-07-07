@@ -33,4 +33,5 @@ Although the above interpolation techniques show little difference in their outp
 References:
 
 [1] Rafael C. Gonzalez, Richard E. Woods, *Digital Image Processing*, 4th Edition.
+
 [2] Image Database, https://www.imageprocessingplace.com/root_files_V3/image_databases.htm
