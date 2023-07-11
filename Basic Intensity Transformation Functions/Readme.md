@@ -32,3 +32,8 @@ Power-law transformations are useful for general purpose contrast manipulation. 
 
 ## Contrast Stretching
 Low-contrast images can result from poor illumination, lack of dynamic range in the imaging sensor, or even the wrong setting of a lens aperture during image acquisition. Contrast stretching expands the range of intensity levels in an image so that it spans the ideal full intensity range of recoding medium or display device.
+
+<hr>
+References:
+
+[1] Rafael C. Gonzalez, Richard E. Woods, *Digital Image Processing*, 4th Edition.
