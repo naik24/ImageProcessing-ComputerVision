@@ -1,4 +1,4 @@
-# Image Registration
+# Image Registration [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/naik24/ImageProcessing/blob/master/Image%20Registration/ImageRegistration.ipynb)
 
 Image registration is an important application of digital image processing used to align two or more images of the same scene. In image registration, we have available an input image and a reference image. The objective is to transform the input image geometrically to produce an output image that is aligned(registered) with the reference image. 
 
