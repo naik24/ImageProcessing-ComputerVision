@@ -16,7 +16,9 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-![ScikitImage](https://github.com/naik24/ImageProcessing/assets/69704762/4301e031-cf58-4162-811b-37b6fd6fbebc)
-![image](https://github.com/naik24/ImageProcessing/assets/69704762/5bc394d1-683b-47f0-9342-baf1cc8178ad)
+![image](https://github.com/naik24/ImageProcessing/assets/69704762/07dba0f6-700b-4ee9-b096-5ca1ca0772cf)
+
+![image](https://github.com/naik24/ImageProcessing/assets/69704762/fc4fbce1-92a7-4ae1-b227-dd42b9a27012)
+
 
 
