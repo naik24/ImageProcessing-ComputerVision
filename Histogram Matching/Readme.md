@@ -1,4 +1,4 @@
-# Histogram Matching [Code: <a href = "https://github.com/naik24/ImageProcessing/blob/master/Histogram%20Matching/Histogram_Matching.ipynb">💻</a>]
+# Histogram Matching [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/Histogram%20Matching/Histogram_Matching.ipynb)
 
 Sometimes, it is useful to be able to specify the shape of the histogram that we wish the processed image to have. The method used to generate images that have a specified histogram is called histogram matching or histogram specification.
 
