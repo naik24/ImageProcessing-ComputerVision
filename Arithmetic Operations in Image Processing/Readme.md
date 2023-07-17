@@ -1,4 +1,4 @@
-# Arithmetic Operations In Image Processing [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/naik24/ImageProcessing/blob/master/Arithmetic%20Operations%20in%20Image%20Processing/Arithmetic%20Operations%20in%20Image%20Processing.ipynb)
+# Arithmetic Operations In Image Processing [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/Arithmetic%20Operations%20in%20Image%20Processing/Arithmetic%20Operations%20in%20Image%20Processing.ipynb)
 
 Arithmetic operations between two images are denoted as:
 <p align = "center"><img width="176" alt="image" src="https://github.com/naik24/ImageProcessing/assets/69704762/f77e069f-b7a3-4cfe-8300-469fb843a690">
