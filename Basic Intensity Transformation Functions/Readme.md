@@ -1,4 +1,4 @@
-# Basic Intensity Transformation Functions [Code:<a href = "https://github.com/naik24/ImageProcessing/blob/master/Basic%20Intensity%20Transformation%20Functions/Basic_Intensity_Transformation_Functions.ipynb">💻</a>]
+# Basic Intensity Transformation Functions [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/Basic%20Intensity%20Transformation%20Functions/Basic_Intensity_Transformation_Functions.ipynb)
 
 ## Image Negatives
 The negative of an image with intensity levels in the range [0, L-1] is obtained by using the negative transformation function which has the form:
