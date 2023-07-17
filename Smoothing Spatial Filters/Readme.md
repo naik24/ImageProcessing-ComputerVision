@@ -1,4 +1,4 @@
-# Smoothing (Lowpass) Spatial Filters (Code: [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/naik24/ImageProcessing/blob/master/Smoothing%20Spatial%20Filters/Smoothing_(Lowpass)_Spatial_Filters.ipynb))
+# Smoothing (Lowpass) Spatial Filters [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/Smoothing%20Spatial%20Filters/Smoothing_(Lowpass)_Spatial_Filters.ipynb)
 
 
 Smoothing spatial filters are used to reduce sharp transitions in intensity. Because random noise typically consists of sharp transitions in intensity, an obvious application of smoothing is noise reduction. Smoothing is used to reduce irrelevant detail in an image, where "irrelevant" refers to pixel regions that are small with respect to the size of filter kernel. Another application is for smoothing the false contours that result from using an insufficient number of intensity levels in an image. Smoothing filters are used in combination with other techniques for image enhancement, such as histogram processing techniques.
