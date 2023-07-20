@@ -18,5 +18,8 @@ After equalization, we get the following histogram
 <hr>
 References:
 
-[1] *Histogram Equalization*, https://en.wikipedia.org/wiki/Histogram_equalization
-[2] Image Database, https://www.imageprocessingplace.com/root_files_V3/image_databases.htm
+[1] Rafael C. Gonzalez, Richard E. Woods, *Digital Image Processing*, 4th Edition.
+
+[2] *Histogram Equalization*, https://en.wikipedia.org/wiki/Histogram_equalization
+
+[3] Image Database, https://www.imageprocessingplace.com/root_files_V3/image_databases.htm
