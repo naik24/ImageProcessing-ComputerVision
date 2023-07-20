@@ -9,6 +9,7 @@
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Histogram%20Equalization">Histogram Equalization</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Histogram%20Matching">Histogram Matching</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Smoothing%20Spatial%20Filters">Smoothing (Lowpass) Spatial Filters</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Using%20Gradient%20for%20Edge%20Enchancement"> Using Gradient For Edge Enhancement</a>
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
