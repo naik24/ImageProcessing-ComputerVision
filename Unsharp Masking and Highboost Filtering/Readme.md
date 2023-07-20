@@ -13,7 +13,7 @@ The *mask* in equation form is given by:
 Then we add a weighted portion of the mask back to the original image:
 <p align = "center"><img width="201" alt="image" src="https://github.com/naik24/ImageProcessing/assets/69704762/96f2b27e-1a2b-4588-bb29-a43a93e3f0d6">
 </p>
-where we include a weighted *k* for generality. When *k* = 1, we have unsharp masking. When *k* > 1, the process is referred to as highboost filtering.
+where we include a weighted k for generality. When k = 1, we have unsharp masking. When k > 1, the process is referred to as highboost filtering.
 
 <hr>
 References:
