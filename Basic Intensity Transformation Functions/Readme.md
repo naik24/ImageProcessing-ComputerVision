@@ -37,3 +37,5 @@ Low-contrast images can result from poor illumination, lack of dynamic range in 
 References:
 
 [1] Rafael C. Gonzalez, Richard E. Woods, *Digital Image Processing*, 4th Edition.
+
+[2] Image Database, https://www.imageprocessingplace.com/root_files_V3/image_databases.htm
