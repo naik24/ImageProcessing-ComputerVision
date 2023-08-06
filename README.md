@@ -17,6 +17,13 @@
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Using%20Gradient%20for%20Edge%20Enchancement"> Using Gradient For Edge Enhancement</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Unsharp%20Masking%20and%20Highboost%20Filtering"> Unsharp Masking and HighBoost Filtering</a>
 
+<h3 align = "center">Filtering in Frequency Domain</h3>
+
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Ideal%20Frequency%20Domain%20Filtering">Ideal Frequency Domain Filtering</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Gaussian%20Frequency%20Domain%20Filtering">Gaussian Frequency Domain Filtering</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Butterworth%20Frequency%20Domain%20Filtering">Butterworth Frequency Domain Filtering</a>
+
+
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
