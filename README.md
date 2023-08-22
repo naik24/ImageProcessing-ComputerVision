@@ -26,6 +26,7 @@
 <h3 align = "center"> Image Segmentation</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Detection%20of%20Isolated%20Points%20in%20an%20Image">Detection of Isolated Points in Images</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Global%20Thresholding">Global Thresholding</a>
 
 
 ## Tech Stack
