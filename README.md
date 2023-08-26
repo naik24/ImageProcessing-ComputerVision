@@ -27,6 +27,10 @@
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Mean%20Filters">Mean Filters</a>
 
+<h3 align = "center">Morphological Image Processing</h3>
+
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Using%20Erosion%20to%20remove%20Image%20Components">Using Erosion to Remove Image Components</a>
+
 <h3 align = "center"> Image Segmentation</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Detection%20of%20Isolated%20Points%20in%20an%20Image">Detection of Isolated Points in Images</a>
