@@ -23,6 +23,10 @@
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Gaussian%20Frequency%20Domain%20Filtering">Gaussian Frequency Domain Filtering</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Butterworth%20Frequency%20Domain%20Filtering">Butterworth Frequency Domain Filtering</a>
 
+<h3 align = "center">Image Restoration and Reconstruction</h3>
+
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Mean%20Filters">Mean Filters</a>
+
 <h3 align = "center"> Image Segmentation</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Detection%20of%20Isolated%20Points%20in%20an%20Image">Detection of Isolated Points in Images</a>
