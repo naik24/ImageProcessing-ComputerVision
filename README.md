@@ -10,7 +10,7 @@
 
 <h3 align = "center">Intensity Transformations and Spatial Filtering</h3>
 
-- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Basic%20Intensity%20Transformation%20Functions"> Basic Intensiry Tranformation Functions</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Basic%20Intensity%20Transformation%20Functions"> Basic Intensity Tranformation Functions</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Histogram%20Equalization">Histogram Equalization</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Histogram%20Matching">Histogram Matching</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Smoothing%20Spatial%20Filters">Smoothing (Lowpass) Spatial Filters</a>
