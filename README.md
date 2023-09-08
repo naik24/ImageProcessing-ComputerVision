@@ -30,6 +30,7 @@
 <h3 align = "center">Morphological Image Processing</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Using%20Erosion%20to%20remove%20Image%20Components">Using Erosion to Remove Image Components</a>
+- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Opening%20and%20Closing%20for%20Morphological%20Filtering">Opening and Closing for Morphological Filtering</a>
 
 <h3 align = "center"> Image Segmentation</h3>
 
