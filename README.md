@@ -36,8 +36,6 @@
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Detection%20of%20Isolated%20Points%20in%20an%20Image">Detection of Isolated Points in Images</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Global%20Thresholding">Global Thresholding</a>
-- <a href = "https://github.com/naik24/ImageProcessing/tree/master/Image%20Segmentation%20using%20KMeans%20Clustering">Image Segmentation using KMeans Clustering</a>
-
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
