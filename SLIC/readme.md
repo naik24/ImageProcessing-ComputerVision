@@ -1,4 +1,4 @@
-# SLIC (Simple Linear Iterative Clusterring) Superpixel Algorithm [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/Arithmetic%20Operations%20in%20Image%20Processing/Arithmetic%20Operations%20in%20Image%20Processing.ipynb)
+# SLIC (Simple Linear Iterative Clusterring) Superpixel Algorithm [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing/blob/master/SLIC/Simple_Linear_Iterative_Clustering.ipynb)
 
 SLIC, devloped by <a href = "https://ieeexplore.ieee.org/document/6205760">Achanta et al. [2012]</a>, is a conceptually simple algorithm, and has computation and other performance advantages over other superpixels techniques. SLIC is a modification of the k-means algorithm. SLIC observations typically use 5-dimensional vectors containing three color components and two spatial coordinates.
 
