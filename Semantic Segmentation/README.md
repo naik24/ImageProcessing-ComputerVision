@@ -1,5 +1,4 @@
-# Semantic Segmentation for Self-Driving Cars [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/blob/main/Semantic_Segmentation_for_Self_Driving_Cars.ipynb) [![read-paper-here](https://img.shields.io/badge/Read%20Paper-Here-1f425f.svg)](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/blob/main/Semantic%20Segmentation%20for%20Self.pdf)
-
+# Semantic Segmentation for Self-Driving Cars [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/blob/main/Semantic_Segmentation_for_Self_Driving_Cars.ipynb)
 Semantic segmentation is a deep learning algorithm that associates a label or category with every pixel in an image. It is used to recognize a collection of pixels that form distinct categories. For example, an autonomous vehicle needs to identify vehicles, pedestrians, traffic signs, pavement, and other road features.
 
 ## Data
@@ -55,16 +54,3 @@ The 5000 images and their corresponding are distributed into train, validation, 
 
 
 Each blue box corresponds to a multi-channel feature map. The number of channels is denoted on top of the box. The x-y-size is provided at the lower left edge of the box. White boxes represent copied feature maps. The arrows denote the different operations. Link to the paper <a href = "https://arxiv.org/pdf/1505.04597.pdf">here</a>.
-
-## Tools & Technologies
-<img width="1145" alt="image" src="https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/9fbf2341-0bc8-43cd-88f9-eee3920d36d7">
-
-The version used of above libraries are stated in the table below
-
-<div align="center">
-    
-| Python | Keras | Tensorflow | Numpy | Matplotlib | Scikit-learn | HDF5 | GPU              |
-|--------|-------|------------|-------|------------|--------------|------|------------------|
-|3.10.12 |2.14.0 |2.14.0      |1.23.5 |3.7.1       |1.2.2         |3.9.0 | Nvidia Tesla V100|
-
-</div>
