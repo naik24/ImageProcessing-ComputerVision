@@ -1,6 +1,4 @@
-# Digital Image Processing & Computer Vision
-
-## Contents
+# Digital Image Processing
 
 <h3>Digital Image Fundamentals</h3>
 
@@ -39,13 +37,22 @@
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Image%20Segmentation%20using%20KMeans">Image Segmentation using KMeans Clustering</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/SLIC">SLIC (Simple Linear Iterative Clustering</a>
 
+# Computer Vision
+
+<h3>Semantic Segmentation</h3>
+
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
+
+
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
-
 ![image](https://github.com/naik24/ImageProcessing/assets/69704762/07dba0f6-700b-4ee9-b096-5ca1ca0772cf)
-
 ![image](https://github.com/naik24/ImageProcessing/assets/69704762/fc4fbce1-92a7-4ae1-b227-dd42b9a27012)
+![image](https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/cd755658-0c12-4b24-bd3e-ea9a266e8140)
+![image](https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/b1706031-004d-4c53-8db6-c70b5b735751)
+
+
