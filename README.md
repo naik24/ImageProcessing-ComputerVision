@@ -24,6 +24,7 @@
 <h3>Image Restoration and Reconstruction</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Mean%20Filters">Mean Filters</a>
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/OrderStatisticFilters">Order Statistic Image Filters</a>
 
 <h3>Morphological Image Processing</h3>
 
