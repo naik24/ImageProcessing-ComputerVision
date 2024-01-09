@@ -40,8 +40,6 @@
 
 # Computer Vision
 
-<h3>Semantic Segmentation</h3>
-
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
 
 
