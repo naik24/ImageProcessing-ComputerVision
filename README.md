@@ -41,6 +41,7 @@
 # Computer Vision
 
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Brain%20Tumor%20Detection">Brain Tumor Detection</a>
 
 
 ## Tech Stack
