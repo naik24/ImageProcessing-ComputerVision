@@ -38,16 +38,15 @@
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/Image%20Segmentation%20using%20KMeans">Image Segmentation using KMeans Clustering</a>
 - <a href = "https://github.com/naik24/ImageProcessing/tree/master/SLIC">SLIC (Simple Linear Iterative Clustering</a>
 
-# Computer Vision
-
-- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
-- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Brain%20Tumor%20Detection">Brain Tumor Detection</a>
-
-# Feature Extraction
+<h3>Feature Extraction</h3>
 
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Feature%20Extraction%20and%20Keypoint%20Matching">Feature Extraction and Keypoint Matching</a>
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Image%20Data%20Association">Image Data Association</a>
 
+# Computer Vision
+
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Brain%20Tumor%20Detection">Brain Tumor Detection</a>
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
