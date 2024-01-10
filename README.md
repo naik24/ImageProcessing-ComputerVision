@@ -1,4 +1,4 @@
-# Digital Image Processing
+# <p align = "center">Digital Image Processing</p>
 
 <h3>Digital Image Fundamentals</h3>
 
@@ -43,7 +43,7 @@
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Feature%20Extraction%20and%20Keypoint%20Matching">Feature Extraction and Keypoint Matching</a>
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Image%20Data%20Association">Image Data Association</a>
 
-# Computer Vision
+# <p align = "center">Computer Vision</p>
 
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Brain%20Tumor%20Detection">Brain Tumor Detection</a>
