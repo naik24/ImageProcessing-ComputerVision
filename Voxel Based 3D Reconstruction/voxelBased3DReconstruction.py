@@ -1,8 +1,3 @@
-"""
-Authors:
-    - Atharv Subhekar (CWID: 20015840)
-    - Prasad Naik (CWID: 20016345)
-"""
 #%% ========== importing libraries ==========
 import numpy as np
 import xml.etree.ElementTree as ET
