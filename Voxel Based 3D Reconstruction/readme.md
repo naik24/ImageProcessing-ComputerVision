@@ -1,4 +1,4 @@
-# Voxel-Based 3D Reconstruction
+# Voxel-Based 3D Reconstruction [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing-ComputerVision/blob/master/Voxel%20Based%203D%20Reconstruction/voxelBased3DReconstruction.py)
 
 In recent years, the fusion of computer vision and 3D reconstruction has revolutionized various fields, from entertainment to healthcare and beyond. Among the myriad techniques, voxel-based modeling stands out for its ability to capture intricate spatial details and generate highly accurate 3D representations. In this project, I have built a Voxel-Based 3D Reconstruction System. The aim of this project is to build a 3D model of the dancer given her 2D images from different camera angles as shown below:
 
