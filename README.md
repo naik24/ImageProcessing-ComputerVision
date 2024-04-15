@@ -62,5 +62,7 @@
 ![image](https://github.com/naik24/ImageProcessing/assets/69704762/fc4fbce1-92a7-4ae1-b227-dd42b9a27012)
 ![image](https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/cd755658-0c12-4b24-bd3e-ea9a266e8140)
 ![image](https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/b1706031-004d-4c53-8db6-c70b5b735751)
+![image](https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/9d7589b3-abc2-4dfb-97cc-83f7ab0d4622)
+
 
 
