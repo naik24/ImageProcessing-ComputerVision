@@ -141,4 +141,6 @@ with torch.no_grad():
     print(best_description)
 ```
 
+## Fine-Tuned Weights
+The fine-tuned weights file is too big to push to gitHub. Hence, I have uploaded the file on my HuggingFace space at <a href = "https://huggingface.co/nprasad24/euroSAT_CLIP/blob/main/euroSATclip.pt">nprasad24/euroSAT_CLIP</a>
 
