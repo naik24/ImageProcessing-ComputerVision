@@ -47,11 +47,11 @@
 
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Semantic%20Segmentation">Semantic Segmentation for Self Driving Cars</a>
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Brain%20Tumor%20Detection">Brain Tumor Detection</a>
+- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/EuroSAT%20Landcover%20Classification">EuroSAT Landcover Classification using CLIP</a>
 
 # <p align = "center">3D Computer Vision</p>
 
 - <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/Voxel%20Based%203D%20Reconstruction#voxel-based-3d-reconstruction-">Voxel-Based 3D Reconstruction</a>
-- <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/tree/master/EuroSAT%20Landcover%20Classification">EuroSAT Landcover Classification using CLIP</a>
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
