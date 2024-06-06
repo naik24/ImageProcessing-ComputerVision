@@ -1,4 +1,4 @@
-# EuroSAT Landcover Classification using CLIP
+# EuroSAT Landcover Classification using CLIP [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing-ComputerVision/blob/master/EuroSAT%20Landcover%20Classification/EuroSAT_with_CLIP.ipynb)
 
 CLIP (Contrastive Language–Image Pretraining) is a neural network model developed by OpenAI that can understand and generate text from images and vice versa. It stands for "Contrastive Language-Image Pretraining."
 
