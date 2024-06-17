@@ -14,6 +14,8 @@ YOLOv10 comes with a new family of real-time end-to-end detectors with different
 
 <p align = "center"><img src = "https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/196e87ac-a739-4897-b291-fcde1edb8ef8"></p>
 
+In this project, we train the YOLOv10 model to detect players, referees, football and the goalkeeper on a soccer field.
+
 ## Installing Dependencies
 
 Clone the official YOLOv10 repo
