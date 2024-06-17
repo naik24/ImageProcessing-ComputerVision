@@ -1,5 +1,6 @@
 # Soccer Object Detection using YOLOv10
 
+**Objective:** In this project, we train the YOLOv10 model to detect players, referees, football and the goalkeeper on a soccer field.
 
 YOLOv10 (You Only Look Once version 10) is an advanced real-time object detection system that builds on the principles established by its predecessors in the YOLO family. Known for its high speed and accuracy, YOLOv10 leverages deep learning techniques to detect and classify objects within images or video frames in a single pass through the network, making it extremely efficient for real-time applications.
 
@@ -13,8 +14,6 @@ Key features of YOLOv10 likely include:
 YOLOv10 comes with a new family of real-time end-to-end detectors with different model scales, i.e. YOLOv10-N/S/M/B/L/X. YOLOv10 can significantly outperform previous state-of-the-art models in terms of computation-accuracy trade-offs across various model scales.
 
 <p align = "center"><img src = "https://github.com/naik24/ImageProcessing-ComputerVision/assets/69704762/196e87ac-a739-4897-b291-fcde1edb8ef8"></p>
-
-In this project, we train the YOLOv10 model to detect players, referees, football and the goalkeeper on a soccer field.
 
 ## Installing Dependencies
 
