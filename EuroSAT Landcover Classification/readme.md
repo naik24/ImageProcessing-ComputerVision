@@ -142,5 +142,5 @@ with torch.no_grad():
 ```
 
 ## Fine-Tuned Weights
-The fine-tuned weights file is too big to push to gitHub. Hence, I have uploaded the file on my HuggingFace space at <a href = "https://huggingface.co/nprasad24/euroSAT_CLIP/blob/main/euroSATclip.pt">nprasad24/euroSAT_CLIP</a>
+The fine-tuned weights can be found <a href = "https://github.com/naik24/ImageProcessing-ComputerVision/blob/master/EuroSAT%20Landcover%20Classification/pytorch_model.bin">here</a>
 
