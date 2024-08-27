@@ -1,4 +1,4 @@
-# Wildfire Smoke Detection
+# Wildfire Smoke Detection [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing-ComputerVision/blob/master/Wildfire%20Smoke%20Detection/Wildfire_Smoke.ipynb)
 
 <p align = "center">
 <img src = "https://github.com/user-attachments/assets/64f4a5fc-591a-40ea-8171-781670cce74f">
