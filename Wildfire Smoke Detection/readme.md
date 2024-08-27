@@ -9,3 +9,22 @@ Wildfires are highly destructive, posing significant risks to both human life an
 
 
 In this project, I have built a wildfire smoke detection system using `Roboflow` and `Ultralytics` to detect smoke in forests. This early detection can help in alerting the local authorities to take quick action.
+
+## Implementation
+
+I implemented two models:
+
+1. YOLOv8
+2. Roboflow Object Detection 3.0
+
+## Metrics
+
+1. YOLOv8
+  - Precision: 0.869
+  - Recall: 0.932
+  - mAP: 0.956
+
+2. Roboflow Object Detection 3.0
+  - Precision: 0.97
+  - Recall: 0.95
+  - mAP: 0.92
