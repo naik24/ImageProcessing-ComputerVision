@@ -15,7 +15,7 @@ In this project, I have built a wildfire smoke detection system using `Roboflow`
 I implemented two models:
 
 1. YOLOv8
-2. Roboflow Object Detection 3.0
+2. Roboflow 3.0 Object Detection
 
 ## Metrics
 
@@ -24,7 +24,7 @@ I implemented two models:
   - Recall: 0.932
   - mAP: 0.956
 
-2. Roboflow Object Detection 3.0
+2. Roboflow 3.0 Object Detection
   - Precision: 0.97
   - Recall: 0.95
   - mAP: 0.92
