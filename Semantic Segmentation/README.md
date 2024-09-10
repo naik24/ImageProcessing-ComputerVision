@@ -1,4 +1,4 @@
-# Semantic Segmentation for Self-Driving Cars [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/blob/main/Semantic_Segmentation_for_Self_Driving_Cars.ipynb)
+# Semantic Segmentation for Self-Driving Cars [![access-code-here](https://img.shields.io/badge/Access%20Code-Here-1f425f.svg)](https://github.com/naik24/ImageProcessing-ComputerVision/blob/master/Semantic%20Segmentation/Semantic_Segmentation_for_Self_Driving_Cars.ipynb)
 Semantic segmentation is a deep learning algorithm that associates a label or category with every pixel in an image. It is used to recognize a collection of pixels that form distinct categories. For example, an autonomous vehicle needs to identify vehicles, pedestrians, traffic signs, pavement, and other road features.
 
 ## Data
